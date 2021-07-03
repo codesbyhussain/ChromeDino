@@ -14,7 +14,7 @@ path = os.path.join(my_path, "img\\")
 while not keyboard.is_pressed("e"):
 
     # You need to define the pixels you want to grab here!
-    image = grab_screen(region=(85, 350, 715, 500))
+    image = grab_screen(region=(50, 280, 580, 400))
     #Covert to grayscale
     image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     # Cover to black or white pixel
